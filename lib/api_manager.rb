@@ -1,6 +1,6 @@
-class APIManager
+class UwCli::APIManager
 
-  BASE_URL = "https://unknownworlds.com"
+  BASE_URL = "https://unknownworlds.com/"
 
   def self.get_games
     url = BASE_URL + "games"

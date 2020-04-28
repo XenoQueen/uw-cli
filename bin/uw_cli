@@ -2,4 +2,4 @@
 
 require_relative '../lib/uw_cli.'
 
-CLI.new.start
+UWCLI::CLI.new.start
